@@ -2,10 +2,10 @@ const canvas = document.querySelector(".C")
 const ctx = canvas.getContext("2d")
 
 const bird_IMG = new Image();
-bird_IMG.src = "/bird.png";
+bird_IMG.src = "./bird.png";
 
 const bird_IMG_jump = new Image();
-bird_IMG_jump.src = "/bird_jump.png";
+bird_IMG_jump.src = "./bird_jump.png";
 
 Width = canvas.width = innerWidth * 0.99;
 Height = canvas.height = innerHeight - 50;
